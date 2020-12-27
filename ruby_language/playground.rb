@@ -3,6 +3,24 @@ To Run:
   press ^ + opt + n
   type ruby file_name.rb
 
+View Current Directory
+  pwd
+
+Create Directory
+  mkdir directory_name
+
+Move To Directory
+  cd directory_name
+
+To List All Directories and Files Within Current Directory
+  ls
+
+To List All Directories and Files Within Current Directory Including Hidden
+  ls -la
+
+Move Out Directory
+  cd ..
+
 =end
 
 print "Hello World\n" # must use "" for escape characters
