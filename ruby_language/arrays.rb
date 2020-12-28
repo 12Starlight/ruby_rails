@@ -121,3 +121,24 @@ puts
 puts z[0]
 puts z[1]
 
+for i in z
+  print z
+end 
+
+puts 
+for i in z
+  print i + " "
+end 
+puts
+
+z.each do |food|
+  print food + " "
+end
+puts 
+
+z.each { |food| print food.capitalize + " " }
+puts 
+
+z = (1..100).to_a.shuffle
+print z.select { |number| number.odd? }
+# Remember you can always do Array.methods to get a list of built in methods for Arrays
