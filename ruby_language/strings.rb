@@ -5,15 +5,22 @@ quotes
 Ruby REPL
   start: irb
   end: quit
+
+Duplicate Lines
+  shift + cmd + d
   
 =end
 
+puts "\nStrings Part I\n"
+puts "========================================================================="
 puts "\nString concatenation:\n" 
 first_name = 'Dave'
 last_name = 'G'
 puts first_name + ' ' + last_name
 
+
 puts "\nString interpolation:\n"
+puts "--------------------------"
 puts "My first name is Dave and my last initial is G"
 puts "My first name is #{first_name} and my last intitial is #{last_name}"
 puts 'My first name is #{Does not} and my last initial is #{work}'
@@ -23,7 +30,9 @@ puts full_name
 full_name = "#{first_name} #{last_name}"
 puts full_name
 
-puts "\nMethods\n"
+
+puts "\nMethods:\n"
+puts "--------------------------"
 puts full_name.class # Everything in Ruby is an Object
 # puts full_name.methods # Gets every built in method available
 puts full_name.to_s.class  
@@ -38,3 +47,19 @@ puts ''
 
 puts sentence = "Welcome to the jungle"
 puts sentence.sub("the jungle", "Utopia") #gsub (globalsub) replaces all occurances
+
+
+puts "\nVariable Assignment:\n"
+puts "--------------------------"
+new_first_name = first_name # Points to the same space in memory first_name points to
+puts new_first_name 
+first_name = "John" # first_name now points to a new spot in memory
+puts new_first_name # Still points to old spot in memory 
+
+
+puts "\nEscaping:\n"
+puts "--------------------------"
+puts 'The new first name is #{new_first_name}'
+puts "The new first name is \#{new_first_name}" # Escaped it
+# puts 'Dave asked 'Hey John, how are you doing?'' # Throws error
+puts 'Dave asked \'Hey John, how are you doing?\'' # Escaped it 
