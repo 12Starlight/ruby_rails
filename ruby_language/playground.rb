@@ -3,6 +3,9 @@ To Run:
   press ^ + opt + n
   type ruby file_name.rb
 
+To  Stop:
+  press ^ + opt + m
+
 View Current Directory
   pwd
 

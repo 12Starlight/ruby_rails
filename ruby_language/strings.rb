@@ -4,7 +4,7 @@ quotes
 
 Ruby REPL
   start: irb
-  end: quit
+  end: quit or exit
 
 Duplicate Lines
   shift + cmd + d
@@ -63,3 +63,18 @@ puts 'The new first name is #{new_first_name}'
 puts "The new first name is \#{new_first_name}" # Escaped it
 # puts 'Dave asked 'Hey John, how are you doing?'' # Throws error
 puts 'Dave asked \'Hey John, how are you doing?\'' # Escaped it 
+
+
+puts "\nStrings Part 2\n"
+
+puts "What is your first name?"
+first_name = gets.chomp # Gets input
+puts "Thank you, you said your first name is #{first_name}"
+puts ''
+
+puts "Enter a number to multiply by 2"
+input = gets.chomp 
+puts input * 2 # Using numbers, chomp does string contatenation
+puts input.to_i * 2 # Need to convert to integer
+
+puts "Homework Assignment 1: analyzer.rb"
