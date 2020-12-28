@@ -107,7 +107,17 @@ puts
 print b.split(", ")
 puts
 print %w(My name is Dave : D Ruby is Awesome! This is a great course!) # Creates an Array of strings
-z = _ # In irb _ takes the last expression and assigns it to the variable
+# z = _ # In irb _ takes the last expression and assigns it to the variable
 puts 
-print z # would be the same as %w() created above
+# print z # would be the same as %w() created above
+
+
+puts "\nArray Iterators\n"
+40.times { print "-" }
+puts 
+
+print z = %w(My name is Dave : D Ruby is Awesome! This is a great course!)
+puts
+puts z[0]
+puts z[1]
 
