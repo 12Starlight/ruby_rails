@@ -15,10 +15,13 @@ dial_book = {
 def get_city_names(somehash)
   puts "What city do you want the area code for?"
   somehash.each { |k, v| puts k.capitalize }
+  code = gets.chomp
+  get_area_code(somehash, code.downcase)
 end
 
-# Get area code based on given hash and key
+# Get area code based on given hash and key # helper
 def get_area_code(somehash, key)
+  puts "The area code for #{key.capitalize} is #{somehash[key]}"
 end
 
 # Execution flow
