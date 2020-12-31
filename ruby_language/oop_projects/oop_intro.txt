@@ -65,7 +65,5 @@ Examples:
 
   News Network/Blog Site
 
-
-
 =end
 
