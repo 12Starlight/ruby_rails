@@ -37,10 +37,15 @@ class Student
 end
 
 Dave = Student.new("Dave", "Gagnat", "Dave1", "dave@example.com", "awesome")
-# puts Dave
+Joe = Student.new("Joe", "Doe", "Joe1", "joe@example.com", "awesome")
+puts Dave
+puts Joe 
+Dave.last_name = Joe.last_name
+puts "Dave is altered"
+puts Dave 
 # Dave.first_name = "Dave"
 # Dave.last_name = "Gagnat"
 # Dave.email = "dave@example.com"
 # Dave.set_username
-puts "#{Dave.first_name} #{Dave.last_name}" 
-puts "#{Dave.username} #{Dave.email}" 
+# puts "#{Dave.first_name} #{Dave.last_name}" 
+# puts "#{Dave.username} #{Dave.email}" 
