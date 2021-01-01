@@ -39,4 +39,17 @@ def create_secure_users(users)
 end
 
 
-puts create_secure_users(users)
+new_users = create_secure_users(users)
+puts new_users
+
+def authenticate_user(username, password, users_list)
+  users_list.each do |user_record|
+
+    return user_record if user_record[:username] == username && verify_hash_digest(user_record[:password]) == password
+  end
+  "Credentials were not correct"
+end
+
+p authenticate_user("Dave G", "awesome", new_users)
+p authenticate_user("Dave", "awesome", new_users)
+
