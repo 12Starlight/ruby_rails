@@ -4,8 +4,6 @@ Upon download and installation in your local machine (AWS Cloud9 comes pre-insta
 
 <kbd>git config --global user.name "Your name"</kbd>
 
-&nbsp;
-
 <kbd>git config --global user.email youremail@example.com</kbd>
 
 replace "Your name" and youremail@example.com above with your actual name and email address which you want shown on your repos.
