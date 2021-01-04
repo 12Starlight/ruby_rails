@@ -37,9 +37,12 @@ Note: if using Rails 5 or above, your application will already come with a git r
 
 <kbd>git checkout -f</kbd>
 
-### Sites to create free online code repositories:
+### **Sites to create free online code repositories:**
 
 github.com
 
 bitbucket.org
 
+### **Git Basics**
+
+![alt text](./app/assets/images/Screen%20Shot%202021-01-03%20at%2010.38.12%20PM.jpg "Example of Merge")
