@@ -46,3 +46,4 @@ bitbucket.org
 ### **Git Basics**
 
 ![alt text](./app/assets/images/Screen%20Shot%202021-01-03%20at%2010.38.12%20PM.jpg "Example of Merge")
+
