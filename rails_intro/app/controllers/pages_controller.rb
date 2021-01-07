@@ -1,7 +1,4 @@
 class PagesController < ApplicationController
-  def home 
-  end
-
-  def htmlcssbasic
+  def home
   end
 end
