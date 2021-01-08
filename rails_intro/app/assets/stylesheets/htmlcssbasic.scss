@@ -172,6 +172,11 @@ a:hover {
 
 a {
   color: #648880;
+  text-decoration: none;
+}
+
+p a {
+  border-bottom: 1px solid #dfe2e5;
 }
 
 /*
