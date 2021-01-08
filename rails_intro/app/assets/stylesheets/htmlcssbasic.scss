@@ -230,8 +230,19 @@ Primary header
 
 .logo {
   border-top: 4px solid #648880;
-  padding: 40px 0 22px 0;
   float: left;
+  font-size: 48px;
+  line-height: 44px;
+  padding: 40px 0 22px 0;
+}
+
+.tagline {
+  margin: 66px 0 22px 0;
+}
+
+.primary-nav {
+  font-size: 14px;
+  font-weight: 400;
 }
 
 /*
@@ -243,9 +254,12 @@ Primary footer
 
 .primary-footer small {
   float: left;
+  font-weight: 400;
 }
 
 .primary-footer {
+  color: #648880;
+  font-size: 14px;
   padding-bottom: 44px;
   padding-top: 44px;
 }
