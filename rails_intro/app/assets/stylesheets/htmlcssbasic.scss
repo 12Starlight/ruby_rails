@@ -55,7 +55,7 @@ Custom Styles
 
 body {
   color: #888;
-  font: 300 16px/22px "Open Sans", "helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 300 16px/22px "Lato", "Open Sans", "helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 
@@ -217,6 +217,7 @@ Home
 
 .hero p {
   font-size: 24px;
+  font-weight: 100;
 }
 
 /*
@@ -252,8 +253,11 @@ Primary header
   border-top: 4px solid #648880;
   float: left;
   font-size: 48px;
+  font-weight: 100;
+  letter-spacing: .5px;
   line-height: 44px;
   padding: 40px 0 22px 0;
+  text-transform: uppercase;
 }
 
 .tagline {
@@ -266,6 +270,23 @@ Primary header
   font-weight: 400;
   letter-spacing: .5px;
   text-transform: uppercase;
+}
+
+/*
+  ========================================
+  Primary footer
+  ========================================
+*/
+
+.primary-footer {
+  color: #648880;
+  font-size: 14px;
+  padding-bottom: 44px;
+  padding-top: 44px;
+}
+.primary-footer small {
+  float: left;
+  font-weight: 400;
 }
 
 /*
